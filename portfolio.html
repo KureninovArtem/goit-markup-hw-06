@@ -49,7 +49,7 @@
         <!-- Portfolio main section -->
         <section class="portfolio-main-section section">
             <div class="container">
-                <h1 class="portfolio-main-title-hidden">Работы нашей студии</h1>
+                <h1 class="portfolio-main-title visually-hidden">Работы нашей студии</h1>
                 <ul class="portfolio-main-list list">
                     <li class="portfolio-main-item">
                         <button class="portfolio-btn" type="button">Все</button>
@@ -68,7 +68,7 @@
                     </li>
                 </ul>
                 <!-- Work examples -->
-                <h2 class="work-examples-title-hidden">Примеры наших работ</h2>
+                <h2 class="work-examples-title visually-hidden">Примеры наших работ</h2>
                 <ul class="work-examples-list list">
                     <li class="work-examples-item">
                         <a class="work-examples-link link" href="">
@@ -258,6 +258,20 @@
                     </li>
                 </ul>
             </div>
+            <form class="footer-form">
+                <h3 class="footer-form-title">Подпишитесь на рассылку</h3>
+                <div class="footer-form-wrapper">
+                    <label class="footer-form-lable">
+                        <input name="user_email" class="footer-form-input" placeholder="E-mail" type="email" required />
+                    </label>
+                    <button type="submit" class="footer-form-btn">
+                        Подписаться
+                        <svg class="footer-form-icon" width="24" height="24">
+                            <use href="./images/sprite.svg#icon-send"></use>
+                        </svg>
+                    </button>
+                </div>
+            </form>
         </div>
     </footer>
 </body>
